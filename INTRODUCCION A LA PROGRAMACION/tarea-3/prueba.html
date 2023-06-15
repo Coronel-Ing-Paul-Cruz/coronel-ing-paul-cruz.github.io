@@ -1,9 +1,45 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-  <title>Embedded Webpage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tarea 3</title>
 </head>
+
 <body>
-  <iframe src="https://onlinegdb.com/4v9un_cbd" style="width: 100%; height: 500px;"></iframe>
+    <h1>
+        Entrega de tres algoritmos y su diagrama de flujo con Lógica Selectiva o Condicional Simple. Y en el lenguaje Pascal:
+    </h1>
+    <p>
+        Primero: Escribir un programa en Pascal que dado un número del 1 a 7 escriba el correspondiente nombre del día de la semana. Y si es mayor que 7 escriba el mensaje 'E R R O R'.
+    </p>
+
+    <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-3/NombreDiaSemana.pas"
+        id="nombreDiaSemanaLink">NombreDiaSemana.pas</a><br />
+
+    <p>Segundo: Realizar un un programa que lea el monto de compra. Si el monto es mayor o igual a 20000, entonces aplicar un descuento de un 10%. Si el monto es menor de 20000 enviar un mensaje Para ese monto no hay descuento".</p>
+    <br />
+    <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-3/DescuentoCompra.pas"
+        download>DescuentoCompra.pas</a><br />
+
+    <p>Tercero: Hacer un programa que lea dos números y determine cual es el valor máximo, mínimo y que también verifique, si son iguales los dos números.</p>
+    <br />
+    <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-3/ComparacionNumeros.pas"
+        download>ComparacionNumeros.pas</a><br />
+
+    <p>IMPORTANTE: Deben hacerles a los tres algoritmos y su diagrama de flujo, puede ser a lápiz o en editor. Con lápiz y papel es más fácil.</p>
+
+    <script>
+        var nombreDiaSemanaLink = document.getElementById('nombreDiaSemanaLink');
+        nombreDiaSemanaLink.addEventListener('click', function () {
+            this.setAttribute('download', 'NombreDiaSemana.pas');
+        });
+    </script>
 </body>
+
 </html>
