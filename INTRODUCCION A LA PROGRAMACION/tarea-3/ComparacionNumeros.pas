@@ -1,7 +1,9 @@
 program ComparacionNumeros;
+
 var
   num1, num2, maximo, minimo: integer;
 begin
+  GotoXY(1, 1);
   writeln('Comparación de dos números');
   writeln('-------------------------');
   writeln;
@@ -26,9 +28,8 @@ begin
   else
     writeln('Los dos números son diferentes');
   // Mostrar resultados
+  GotoXY(1, 1);  // Imprimir en la parte superior izquierda
   writeln('Valor máximo: ', maximo);
   writeln('Valor mínimo: ', minimo);
   readln;
 end.
-
-
