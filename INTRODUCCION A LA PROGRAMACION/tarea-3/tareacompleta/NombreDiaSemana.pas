@@ -2,6 +2,7 @@ program NombreDiaSemana;
 var
   numeroDia: integer;
 begin
+  GotoXY(1, 1);
   writeln('Asociación de números con días de la semana');
   writeln('-----------------------------------------');
   writeln;
