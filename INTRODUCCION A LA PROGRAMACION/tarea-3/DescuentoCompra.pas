@@ -2,6 +2,7 @@ program DescuentoCompra;
 var
   montoCompra, montoDescuento, montoFinal: real;
 begin
+  GotoXY(1, 1);
   writeln('Cálculo de descuento en una compra');
   writeln('---------------------------------');
   writeln;
