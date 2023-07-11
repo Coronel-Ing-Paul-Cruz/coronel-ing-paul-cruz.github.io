@@ -1,0 +1,42 @@
+Program ecuacionsegundogrado;
+Uses
+crt, math;
+Var
+  a, b, c, d, x1, x2, Real, imaginaria: Extended;
+Begin
+  Clrscr;
+  Gotoxy(1, 1);
+  Writeln('Ingrese los coeficientes de la ecuación de segundo grado:');
+  Gotoxy(1, 2);
+  Write('a: ');
+  Readln(a);
+  Gotoxy(1, 3);
+  Write('b: ');
+  Readln(b);
+  Gotoxy(1, 4);
+  Write('c: ');
+  Readln(c);
+  d := b * b - 4 * a * c;
+  If d > 0 Then
+    Begin
+      Gotoxy(1, 6);
+      x1 := (-b + Sqrt(d)) / (2 * a);
+      x2 := (-b - Sqrt(d)) / (2 * a);
+      Writeln('Existen dos raices reales: x1 = ', x1:0:2, ', x2 = ', x2:0:2);
+    End
+  Else If d = 0 Then
+         Begin
+           Gotoxy(1, 6);
+           x1 := -b / (2 * a);
+           Writeln('Existe una raiz real: x = ', x1:0:2);
+         End
+  Else
+    Begin
+      Gotoxy(1, 6);
+      Real := -b / (2 * a);
+      imaginaria := Sqrt(-d) / (2 * a);
+      Writeln('Existen dos raices complejas:');
+      Writeln('x1 = ', Real:0:2, ' + ', imaginaria:0:2, 'i');
+      Writeln('x2 = ', Real:0:2, ' - ', imaginaria:0:2, 'i');
+    End;
+End.
