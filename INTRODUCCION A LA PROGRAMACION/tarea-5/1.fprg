@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value="balancedinero"/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-11 02:18:30 p.&#160;m."/>
+        <attribute name="created" value=""/>
+        <attribute name="edited" value=""/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xMTswMjoxODozMCBwLsKgbS47MzsyNTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="balance" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese el valor del balance:&quot;" newline="True"/>
+            <input variable="balance"/>
+            <if expression="(balance &lt;&gt; 0) &amp;&amp; (balance &gt; 500)">
+                <then>
+                    <if expression="(balance &lt;= 1000)">
+                        <then>
+                            <output expression="&quot;Dinero en 200/500&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Dinero en 1000 y 2000&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="(balance &lt;= 500)">
+                        <then>
+                            <output expression="&quot;Dinero de 100&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;ERROR&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

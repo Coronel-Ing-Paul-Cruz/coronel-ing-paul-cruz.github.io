@@ -6,15 +6,9 @@ Var
 Begin
   Clrscr;
   Gotoxy(1, 1);
-  Writeln('Ingrese los coeficientes de la ecuación de segundo grado:');
-  Gotoxy(1, 2);
-  Write('a: ');
-  Readln(a);
-  Gotoxy(1, 3);
-  Write('b: ');
-  Readln(b);
-  Gotoxy(1, 4);
-  Write('c: ');
+  Writeln('Ingrese los coeficientes de la ecuaciÃ³n de segundo grado: (a,b,c)');
+  Readln(a); 
+  Readln(b); 
   Readln(c);
   d := b * b - 4 * a * c;
   If d > 0 Then

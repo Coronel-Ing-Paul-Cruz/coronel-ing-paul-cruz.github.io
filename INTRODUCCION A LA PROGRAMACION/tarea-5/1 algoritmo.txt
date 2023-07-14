@@ -1,0 +1,19 @@
+Algoritmo balancedinero
+balance: entero
+Inicio
+Escribir 'Ingrese el valor del balance: '
+Leer balance
+Si (balance <> 0) Y (balance > 500) Entonces
+Si balance <= 1000 Entonces
+Escribir 'Dinero en 200/500'
+Sino
+Escribir 'Dinero en 1000 y 2000'
+Fin Si
+Sino
+Si balance <= 500 Entonces
+Escribir 'Dinero de 100'
+Sino
+Escribir 'ERROR'
+Fin Si
+Fin Si
+Fin 

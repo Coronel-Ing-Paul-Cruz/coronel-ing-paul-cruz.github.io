@@ -1,0 +1,23 @@
+Algoritmo ecuacion
+a, b, c, d, x1, x2, Real, imaginaria
+Escribir Ingrese los coeficientes de la ecuación de segundo grado: (a, b, c)
+Leer a
+Leer b
+Leer c
+d <- b * b - 4 * a * c
+Si d > 0 Entonces
+x1 <- (-b + RaizCuadrada(d)) / (2 * a)
+x2 <- (-b - RaizCuadrada(d)) / (2 * a)
+Escribir("Existen dos raices reales: x1 =", x1, ", x2 =", x2)
+Sino Si d = 0 Entonces
+x1 <- -b / (2 * a)
+Escribir("Existe una raiz real: x =", x1)
+Sino
+Real <- -b / (2 * a)
+imaginaria <- RaizCuadrada(-d) / (2 * a)
+Escribir("Existen dos raices complejas:")
+Escribir("x1 =", Real, "+", imaginaria, "i")
+Escribir("x2 =", Real, "-", imaginaria, "i")
+Fin Si
+Fin Si
+Fin 
