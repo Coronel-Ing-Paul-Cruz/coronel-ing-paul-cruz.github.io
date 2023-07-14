@@ -1,52 +1,119 @@
-<!-- 
-Online HTML, CSS and JavaScript editor to run code online.
--->
 <!DOCTYPE html>
-<html lang="es">
+<html>
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <style>
-        body {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1, p, a {
-            margin-bottom: 20px;
-        }
-
-        @media only screen and (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            p, a {
-                font-size: 14px;
-            }
-        }
-    </style>
-    <title>Tarea 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://templates.pingendo.com/assets/Pingendo_favicon.ico">
+  <title>Landing</title>
+  <meta name="description" content="Wireframe design of a landing page by Pingendo">
+  <meta name="keywords" content="Pingendo bootstrap example template wireframe landing">
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="wireframe.css">
 </head>
 
-<body>
-    <h1>
-       tarea 6
-    </h1>
-   
-
-
-
-    <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-6/tarea-6.rar" download>tarea-6.rar</a><br />
-
-    <script src="script.js"></script>
+<body class="">
+  <div class="d-flex align-items-center bg-info h-25">
+    <div class="container">
+      <div class="row d-flex align-items-start" style="">
+        <div class="mx-auto text-center col-md-6">
+          <h1 class="text-white d-flex display-4">INTRODUCCION A LA PROGRAMACION</h1>
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="">Tarea 6<br></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="p-4 col-lg-4 col-md-6">
+          <h4><b>1er. Ejercicio</b><br></h4>
+          <p>- Hacer Algoritmo, Diagrama de Flujo y Codigo en Pascal de un programa que calcule las notas parciales P1, P2,P3 y la asistencia sea calculada en base a los resultados. Utilizando la instrucción CASE. Como datos de salida indicar que dependiendo de la nota envie el mensaje, y resultado de la calificación.</p>
+        </div>
+        <div class="col-md-6 align-items-center d-flex" style="">
+          <p style="" class="lead">90..100 Excelente: Sumarle 10 puntos de asistencia&nbsp;<br>80..89 Muy Bueno: Sumarle 9 puntos de asistencia&nbsp;<br>70..79 Bueno: Sumarle 8 puntos de asistencia&nbsp;<br>60..69 Regular: Sumarle 7 puntos de asistencia&nbsp;<br>50..59 Reprobado: Sumarle 6 puntos de asistencia&nbsp;<br>En caso diferentes enviar mensaje de "Error"</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="" contenteditable="true">Codigo en Pascal<br></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">
+            <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-6/1-ejercicio.pas" target="_blank" rel="noopener noreferrer">Descargar 1er. ejercicio.pas</a>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="" contenteditable="true">Diagrama de Flujo</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid d-block" src="1er diagrama.svg"></div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5" style="">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="p-4 col-lg-4 col-md-6">
+          <h4><b>2do. Ejercicio</b><br></h4>
+          <p>Hacer Algoritmo, Diagrama de Flujo y codigo en Pascal de un programa de una aerolínea que están vendiendo Ticket aéreos para diferentes países. El cliente indica a cuál país de los que ofrece la aerolínea desea viajar, así como la cantidad de Ticket que desea comprar. El costo de cada Ticket depende del país de destino tal y cómo se muestra a continuación:</p>
+        </div>
+        <div class="col-md-6 d-flex flex-column" style="">
+          <p style="" class="lead">(1) - Estados Unidos(US) ⇒ costo del Ticket es de 1000$&nbsp;</p>
+          <p style="" class="lead">(2) - Islandia(IS) ⇒ costo del Ticket es de 1350$</p>
+          <p style="" class="lead">(3) - México(MX) ⇒ costo del Ticket es de 300$</p>
+          <p style="" class="lead">(4) - Japón(JA) ⇒ costo del Ticket es de 2000$</p>
+          <p style="" class="lead">Sino es ninguno de ellos enviar mensaje de 'E R R O R' </p>
+          <p style="" class="lead">Datos de entrada: Cantidad de ticket y el pais a escoger </p>
+          <p style="" class="lead">Datos de Salidas: Costo total de los Tickets y nombre del país </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="" contenteditable="true">Codigo en Pascal<br></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">
+            <a href="https://coronel-ing-paul-cruz.github.io/INTRODUCCION%20A%20LA%20PROGRAMACION/tarea-6/2-ejercicio.pas" target="_blank" rel="noopener noreferrer">Descargar 2do. ejercicio.pas</a>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="" contenteditable="true">Diagrama de Flujo</h2>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><img class="img-fluid d-block" src="2do diagrama.svg"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" style=""></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
 </html>
