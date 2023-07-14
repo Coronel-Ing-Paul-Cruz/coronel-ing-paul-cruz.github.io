@@ -1,0 +1,32 @@
+Inicio
+  Imprimir('Bienvenido a la Aerolinea American Airlines')
+  Imprimir('--- Destinos ---')
+  Imprimir('(1) - Estados Unidos (US) => costo del Ticket es de $1000')
+  Imprimir('(2) - Islandia (IS) => costo del Ticket es de $1350')
+  Imprimir('(3) - México (MX) => costo del Ticket es de $300')
+  Imprimir('(4) - Japón (JA) => costo del Ticket es de $2000')
+  Imprimir('Seleccione el país al que desea viajar: ')
+  Leer(Pais)
+  Imprimir('Ingrese la cantidad de tickets que desea comprar: ')
+  Leer(CantidadTickets)
+  Caso Pais Hacer
+    1:
+       CostoTotal := 1000 * CantidadTickets
+       Imprimir('Usted ha seleccionado Estados Unidos (US)')
+       Imprimir('El costo total de los tickets es: $', CostoTotal)
+    2:
+       CostoTotal := 1350 * CantidadTickets
+       Imprimir('Usted ha seleccionado Islandia (IS)')
+       Imprimir('El costo total de los tickets es: $', CostoTotal)
+    3:
+       CostoTotal := 300 * CantidadTickets
+       Imprimir('Usted ha seleccionado México (MX)')
+       Imprimir('El costo total de los tickets es: $', CostoTotal)
+    4:
+       CostoTotal := 2000 * CantidadTickets
+       Imprimir('Usted ha seleccionado Japón (JA)')
+       Imprimir('El costo total de los tickets es: $', CostoTotal)
+    De Otro Modo:
+       Imprimir('E R R O R')
+  Fin 
+Fin.
