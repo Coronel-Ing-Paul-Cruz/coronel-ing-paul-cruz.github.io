@@ -7,12 +7,8 @@ Begin
   Clrscr;
   Gotoxy(1, 1);
   Writeln('Ingrese la nota del 1er, 2do y 3er parcial:');
-  Readln(P1);
-  Gotoxy(1, 3);
-  Readln(P2);
-  Gotoxy(1, 5);
-  Readln(P3);
-  promedio := P1 + P2 + P3;
+  Readln(P1, P2, P3);
+   promedio := P1 + P2 + P3;
   Asistencia := 0;
   Case promedio Of
     90..100:
@@ -39,7 +35,7 @@ Begin
     60..69:
             Begin
               Asistencia := 7;
-              NotaFinal := promedio + Asistencia;
+              NotaFinal := promedio + Asistencia ;
               Gotoxy(1, 7);
               Writeln('Regular, su nota final es ', NotaFinal);
             End;
