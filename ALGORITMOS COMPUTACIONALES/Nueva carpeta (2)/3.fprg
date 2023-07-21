@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 10:47:49 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo0MToyOCBwLsKgbS47MjQ2OA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo0Nzo0OSBwLsKgbS47MzsyNTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sueldo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la cantidad del sueldo&quot;" newline="True"/>
+            <input variable="sueldo"/>
+            <if expression="sueldo &lt;= 15000">
+                <then>
+                    <output expression="&quot; El aumento del sueldo es: &quot;" newline="False"/>
+                    <output expression="sueldo+(sueldo*0.15)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No aplica para aumento de sueldo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

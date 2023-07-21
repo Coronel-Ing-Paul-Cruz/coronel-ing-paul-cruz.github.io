@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 10:41:22 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDozNzoyNiBwLsKgbS47MjQ3MQ=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo0MToyMiBwLsKgbS47MTsyNTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cantcompra" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese la cantidad de articulos a comprar&quot;" newline="True"/>
+            <input variable="cantcompra"/>
+            <if expression="cantcompra &lt; 8">
+                <then>
+                    <output expression="&quot;Ir a Caja R&#225;pida&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ir a caja normal&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

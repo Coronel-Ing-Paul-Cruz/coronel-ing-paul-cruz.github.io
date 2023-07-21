@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 11:06:05 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTowMTozMiBwLsKgbS47MjQ2MA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTowNjowNSBwLsKgbS47MTsyNTcz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="materias, creditos, costocredito" type="Integer" array="False" size=""/>
+            <assign variable="materias" expression="4"/>
+            <assign variable="creditos" expression="4"/>
+            <assign variable="costocredito" expression="75"/>
+            <output expression="&quot;El estudiante debe pagar &quot;" newline="False"/>
+            <output expression="materias * creditos * costocredito" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>

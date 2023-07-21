@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 10:48:25 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xNzswNzowMzo1NCBwLsKgbS47MjQ3MA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo0ODoyNSBwLsKgbS47MzsyNTgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="costoins, descuento, promedio" type="Integer" array="False" size=""/>
+            <assign variable="costoins" expression="1500"/>
+            <output expression="(&quot;Ingrese el promedio del alumno:&quot;)" newline="True"/>
+            <input variable="promedio"/>
+            <if expression="promedio &gt;= 9.0">
+                <then>
+                    <assign variable="descuento" expression="costoIns * 0.2"/>
+                    <output expression="&quot;El alumno tiene un promedio mayor o igual a 9.0&quot;" newline="True"/>
+                    <output expression="&quot;El monto del descuento es: &quot;" newline="False"/>
+                    <output expression="descuento" newline="True"/>
+                    <output expression="&quot;El monto a pagar es: &quot;" newline="False"/>
+                    <output expression="costoins - descuento" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="descuento" expression="0"/>
+                    <output expression="&quot;El alumno tiene un promedio menor a 9.0&quot;" newline="True"/>
+                    <output expression="&quot;No se aplica descuento&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 10:51:28 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo0ODozMyBwLsKgbS47MjQ3MQ=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo1MToyOCBwLsKgbS47MTsyNTc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ingresos" type="Integer" array="False" size=""/>
+            <output expression="&quot;Indique la cantidad de ingresos del solicitante&quot;" newline="True"/>
+            <input variable="ingresos"/>
+            <if expression="ingresos &gt; 25000">
+                <then>
+                    <output expression="&quot;Califica para el prestamo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No califica para el prestamo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

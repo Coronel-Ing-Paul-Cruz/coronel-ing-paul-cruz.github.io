@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 11:50:29 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTozMjoxMCBwLsKgbS47MjQ2MA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTo1MDoyOSBwLsKgbS47MzsyNTgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="h, m, h1, m1" type="Integer" array="False" size=""/>
+            <output expression="&quot;ingrese la cantidad de hombres&quot;" newline="True"/>
+            <input variable="h"/>
+            <output expression="&quot;ingrese la cantidad de mujeres&quot;" newline="True"/>
+            <input variable="m"/>
+            <output expression="&quot;la cantidad porcentual de hombres es: &quot;" newline="False"/>
+            <assign variable="h1" expression="h / (h+m) *100"/>
+            <output expression="h1" newline="False"/>
+            <output expression="&quot;%&quot;" newline="True"/>
+            <output expression="&quot;la cantidad porcentual de mujeres es: &quot;" newline="False"/>
+            <assign variable="m1" expression="m / (h+m) *100"/>
+            <output expression="m1" newline="False"/>
+            <output expression="&quot;%&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

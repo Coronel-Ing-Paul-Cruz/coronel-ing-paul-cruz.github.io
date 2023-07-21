@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-21 08:38:11 a.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0yMTswODoxOTowMyBhLsKgbS47MjQ1Mg=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0yMTswODozODoxMSBhLsKgbS47MTsyNTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultado, tabla, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa un numero del cual quieras generar una tabla de multiplicar&quot;" newline="True"/>
+            <input variable="tabla"/>
+            <for variable="C" start="1" end="12" direction="inc" step="1">
+                <assign variable="resultado" expression="tabla*C"/>
+                <output expression="tabla &amp;&quot;x&quot; &amp;C&amp; &quot;=&quot; &amp;resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

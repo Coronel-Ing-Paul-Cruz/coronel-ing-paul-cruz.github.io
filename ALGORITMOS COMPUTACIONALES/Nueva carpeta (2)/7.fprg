@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 11:32:08 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTowNjowOCBwLsKgbS47MjQ2OA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTozMjowOCBwLsKgbS47MjsyNTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad1, edad2, edad3, estatura1, estatura2, estatura3, promedioedad, promedioesta" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingresa la edad del primer estudiante&quot;" newline="True"/>
+            <input variable="edad1"/>
+            <output expression="&quot;Ingresa la estatura del primer estudiante&quot;" newline="True"/>
+            <input variable="estatura1"/>
+            <output expression="&quot;Ingresa la edad del segundo estudiante&quot;" newline="True"/>
+            <input variable="edad2"/>
+            <output expression="&quot;Ingresa la estatura del segundo estudiante&quot;" newline="True"/>
+            <input variable="estatura2"/>
+            <output expression="&quot;Ingresa la edad del tercer estudiante&quot;" newline="True"/>
+            <input variable="edad3"/>
+            <output expression="&quot;Ingresa la estatura del tercer estudiante&quot;" newline="True"/>
+            <input variable="estatura3"/>
+            <output expression="&quot;La edad promedio es: &quot;" newline="False"/>
+            <output expression="edad1 + edad2 + edad3 / 3" newline="True"/>
+            <output expression="&quot;La estatura promedio es: &quot;" newline="False"/>
+            <output expression="estatura1 + estatura2 + estatura3 / 3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

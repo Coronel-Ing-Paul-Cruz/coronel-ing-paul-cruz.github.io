@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.4.2 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1450" height="1800">
+	<rect x="0" y="0" width="1450" height="1800" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,200 450,261"/>
+		<polygon fill="#404040" stroke="none" points="450,275 463,250 436,250"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,1050 450,1586"/>
+		<polygon fill="#404040" stroke="none" points="450,1600 463,1575 436,1575"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 350,100 A 50 50, 0, 0 0, 350 200 L 550,200 A 50 50, 0, 0 0, 550 100 Z"/>
+			<text x="450" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="450" dy="50" unicode-bidi="embed">Principal</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 350,1600 A 50 50, 0, 0 0, 350 1700 L 550,1700 A 50 50, 0, 0 0, 550 1600 Z"/>
+			<text x="450" y="1615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="450" dy="50" unicode-bidi="embed">Fin</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,400 450,461"/>
+			<polygon fill="#404040" stroke="none" points="450,475 463,450 436,450"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,675 450,736"/>
+			<polygon fill="#404040" stroke="none" points="450,750 463,725 436,725"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="450,850 450,936"/>
+			<polygon fill="#404040" stroke="none" points="450,950 463,925 436,925"/>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 150,275 L 150,400 L 750,400 L 750,275 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="150,300 750,300"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="175,275 175,400"/>
+				<text x="462" y="315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="462" dy="50" unicode-bidi="embed">Entero resultado, suma, C</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 200,475 L 100,675 L 700,675 L 800,475 Z"/>
+				<text x="450" y="490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="450" dy="50" unicode-bidi="embed">Salida &quot;Ingrese el valor</tspan>
+					<tspan x="450" dy="50" unicode-bidi="embed"> inicial para calcular la</tspan>
+					<tspan x="450" dy="50" unicode-bidi="embed"> suma&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#C0E0FF" stroke="#6080A0" stroke-width="3" stroke-dasharray="none" d="M 275,750 L 225,850 L 625,850 L 675,750 Z"/>
+				<text x="450" y="765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="450" dy="50" unicode-bidi="embed">Entrada suma</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="675,1000 975,1000 975,1086"/>
+				<polygon fill="#404040" stroke="none" points="975,1100 988,1075 961,1075"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="975,1425 975,1500 500,1500 500,1063"/>
+				<polygon fill="#404040" stroke="none" points="500,1050 486,1074 513,1074"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="975,1200 975,1261"/>
+					<polygon fill="#404040" stroke="none" points="975,1275 988,1250 961,1250"/>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 750,1100 L 750,1200 L 1200,1200 L 1200,1100 Z"/>
+						<text x="975" y="1115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="975" dy="50" unicode-bidi="embed">resultado = suma+C</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 675,1275 L 600,1425 L 1275,1425 L 1350,1275 Z"/>
+						<text x="975" y="1290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="975" dy="50" unicode-bidi="embed">Salida suma &amp;&quot;+&quot; &amp;C&amp; &quot;=&quot; &amp;</tspan>
+							<tspan x="975" dy="50" unicode-bidi="embed">resultado</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 275,950 L 225,1000 L 275,1050 L 625,1050 L 675,1000 L 625,950 Z"/>
+					<text x="450" y="965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="450" dy="50" unicode-bidi="embed">C = 1 hasta 3</tspan>
+					</text>
+				</g>
+				<text x="800" y="915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="800" dy="50" unicode-bidi="embed">Siguiente</tspan>
+				</text>
+				<text x="362" y="1065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="362" dy="50" unicode-bidi="embed">Hecho</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

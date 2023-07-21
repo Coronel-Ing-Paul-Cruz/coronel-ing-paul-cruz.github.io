@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-21 08:50:43 a.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0yMTswODoxOTowMyBhLsKgbS47MjQ1Mg=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0yMTswODo1MDo0MyBhLsKgbS47MjsyNTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="resultado, suma, C" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese el valor inicial para calcular la suma&quot;" newline="True"/>
+            <input variable="suma"/>
+            <for variable="C" start="1" end="3" direction="inc" step="1">
+                <assign variable="resultado" expression="suma+C"/>
+                <output expression="suma &amp;&quot;+&quot; &amp;C&amp; &quot;=&quot; &amp;resultado" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

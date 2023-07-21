@@ -1,0 +1,9 @@
+Función Principal
+    Declarar Entero resultado, suma, C    
+    Salida "Ingrese el valor inicial para calcular la suma"
+    Entrada suma
+    Para C = 1 hasta 3
+        Asignar resultado = suma+C
+        Salida suma &"+" &C& "=" &resultado
+    Fin
+Fin

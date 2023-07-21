@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 11:53:24 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTo1MDozMCBwLsKgbS47MjQ2Mg=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTo1MzoyNCBwLsKgbS47MTsyNTc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cantidadproducto, precio" type="Integer" array="False" size=""/>
+            <output expression="&quot;ingrese la cantidad de productos a comprar&quot;" newline="True"/>
+            <input variable="cantidadproducto"/>
+            <output expression="&quot;ingrese el precio del producto&quot;" newline="True"/>
+            <input variable="precio"/>
+            <output expression="&quot;El total a pagar es: &quot;" newline="False"/>
+            <output expression="cantidadproducto * precio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 3.4.2 (http://flowgorithm.org) -->
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="1500" height="1800">
+	<rect x="0" y="0" width="1500" height="1800" fill="#FFFFFF"/>
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,200 500,261"/>
+		<polygon fill="#404040" stroke="none" points="500,275 513,250 486,250"/>
+		<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,1050 500,1586"/>
+		<polygon fill="#404040" stroke="none" points="500,1600 513,1575 486,1575"/>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 400,100 A 50 50, 0, 0 0, 400 200 L 600,200 A 50 50, 0, 0 0, 600 100 Z"/>
+			<text x="500" y="115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="500" dy="50" unicode-bidi="embed">Principal</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0E0FF" stroke="#9070A0" stroke-width="3" stroke-dasharray="none" d="M 400,1600 A 50 50, 0, 0 0, 400 1700 L 600,1700 A 50 50, 0, 0 0, 600 1600 Z"/>
+			<text x="500" y="1615" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+				<tspan x="500" dy="50" unicode-bidi="embed">Fin</tspan>
+			</text>
+		</g>
+		<g>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,400 500,461"/>
+			<polygon fill="#404040" stroke="none" points="500,475 513,450 486,450"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,675 500,736"/>
+			<polygon fill="#404040" stroke="none" points="500,750 513,725 486,725"/>
+			<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="500,850 500,936"/>
+			<polygon fill="#404040" stroke="none" points="500,950 513,925 486,925"/>
+			<g>
+				<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 200,275 L 200,400 L 800,400 L 800,275 Z"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="200,300 800,300"/>
+				<polyline fill="none" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" points="225,275 225,400"/>
+				<text x="512" y="315" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="512" dy="50" unicode-bidi="embed">Entero resultado, tabla, C</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 200,475 L 100,675 L 800,675 L 900,475 Z"/>
+				<text x="500" y="490" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="500" dy="50" unicode-bidi="embed">Salida &quot;Ingresa un numero</tspan>
+					<tspan x="500" dy="50" unicode-bidi="embed"> del cual quieras generar</tspan>
+					<tspan x="500" dy="50" unicode-bidi="embed"> una tabla de multiplicar&quot;</tspan>
+				</text>
+			</g>
+			<g>
+				<path fill="#C0E0FF" stroke="#6080A0" stroke-width="3" stroke-dasharray="none" d="M 325,750 L 275,850 L 675,850 L 725,750 Z"/>
+				<text x="500" y="765" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="500" dy="50" unicode-bidi="embed">Entrada tabla</tspan>
+				</text>
+			</g>
+			<g>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="725,1000 1025,1000 1025,1086"/>
+				<polygon fill="#404040" stroke="none" points="1025,1100 1038,1075 1011,1075"/>
+				<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1025,1425 1025,1500 550,1500 550,1063"/>
+				<polygon fill="#404040" stroke="none" points="550,1050 536,1074 563,1074"/>
+				<g>
+					<polyline fill="none" stroke="#404040" stroke-width="6" stroke-dasharray="none" points="1025,1200 1025,1261"/>
+					<polygon fill="#404040" stroke="none" points="1025,1275 1038,1250 1011,1250"/>
+					<g>
+						<path fill="#FFFFD0" stroke="#A0A070" stroke-width="3" stroke-dasharray="none" d="M 800,1100 L 800,1200 L 1250,1200 L 1250,1100 Z"/>
+						<text x="1025" y="1115" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1025" dy="50" unicode-bidi="embed">resultado = tabla*C</tspan>
+						</text>
+					</g>
+					<g>
+						<path fill="#D0FFD0" stroke="#70A070" stroke-width="3" stroke-dasharray="none" d="M 725,1275 L 650,1425 L 1325,1425 L 1400,1275 Z"/>
+						<text x="1025" y="1290" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+							<tspan x="1025" dy="50" unicode-bidi="embed">Salida tabla &amp;&quot;x&quot; &amp;C&amp; &quot;=&quot; &amp;</tspan>
+							<tspan x="1025" dy="50" unicode-bidi="embed">resultado</tspan>
+						</text>
+					</g>
+				</g>
+				<g>
+					<path fill="#FFE0A0" stroke="#A08040" stroke-width="3" stroke-dasharray="none" d="M 325,950 L 275,1000 L 325,1050 L 675,1050 L 725,1000 L 675,950 Z"/>
+					<text x="500" y="965" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+						<tspan x="500" dy="50" unicode-bidi="embed">C = 1 hasta 12</tspan>
+					</text>
+				</g>
+				<text x="850" y="915" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="850" dy="50" unicode-bidi="embed">Siguiente</tspan>
+				</text>
+				<text x="412" y="1065" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle" direction="ltr">
+					<tspan x="412" dy="50" unicode-bidi="embed">Hecho</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-07-18 11:01:07 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMDo1MTo0MSBwLsKgbS47MjQ2NA=="/>
+        <attribute name="edited" value="UGF1bDtFUVVJUE87MjAyMy0wNy0xODsxMTowMTowNyBwLsKgbS47MTsyNTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numeromes" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un n&#250;mero:&quot;" newline="True"/>
+            <input variable="numeromes"/>
+            <if expression="numeromes &gt;= 1 &amp;&amp; numeromes &lt;= 12">
+                <then>
+                    <output expression="&quot;El n&#250;mero &quot;" newline="False"/>
+                    <output expression="numeromes" newline="False"/>
+                    <output expression="&quot; es un n&#250;mero de mes v&#225;lido.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;El n&#250;mero &quot;" newline="False"/>
+                    <output expression="numeromes" newline="False"/>
+                    <output expression="&quot; no es un n&#250;mero de mes v&#225;lido.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
