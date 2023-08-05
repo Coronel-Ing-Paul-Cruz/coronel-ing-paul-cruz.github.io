@@ -1,60 +1,55 @@
-program practicatercerparcial;
-
-uses
-  Crt;
-
-var
-  PCIinicio, PCIfin, PCvalor, PCfila, PCcolumna: Integer;
-
-begin
+Program TareaUniversidadPaulCruz;
+Uses
+Crt;
+Var
+  PCinicio, PCfin, PCcontador, PCfila, PCcolumna: Integer;
+Begin
   Clrscr;
-  PCIinicio := 0;
-  PCIfin := 0;
-  PCvalor := 0;
-  PCfila := 6;
-  PCcolumna := 6;
-
-  Gotoxy(2, 2);
-  writeln('Ingrese el Valor Inicial:');
-  Gotoxy(2, 3); readln(PCIinicio);
-  Gotoxy(2, 4);
-  writeln('Ingrese el Valor Final:');
-  Gotoxy(2, 5); readln(PCIfin);
-	  Clrscr;
-  if PCIinicio <= PCIfin then
-  begin
-    { Secuencia Ascendente }
-    PCvalor := PCIinicio;
-    repeat
-      Gotoxy(PCcolumna, PCfila);
-      write(PCvalor, ' ');
-      PCvalor := PCvalor + 1;
-      PCfila := PCfila + 1;
-      if PCfila >= 24 then
-      begin
-        PCfila := 2;
-        PCcolumna := PCcolumna + 5;
-      end;
-    until PCvalor > PCIfin;
-  end
-  else
-  begin
-    { Secuencia Descendente }
-    PCvalor := PCIinicio;
-    repeat
-      Gotoxy(PCcolumna, PCfila);
-      write(PCvalor, ' ');
-      PCvalor := PCvalor - 1;
-      PCfila := PCfila + 1;
-      if PCfila >= 24 then
-      begin
-        PCfila := 2;
-        PCcolumna := PCcolumna + 5;
-      end;
-    until PCvalor < PCIfin;
-  end;
-
-  writeln;
-  writeln('Presione <Enter> para salir...');
-  readln;
-end.
+  Gotoxy(1, 1);
+  Write('Ingrese el Valor Inicial: ');
+  Gotoxy(1, 2);
+  Readln(PCinicio);
+  Gotoxy(1, 3);
+  Write('Ingrese el Valor Final: ');
+  Gotoxy(1, 4);
+  Readln(PCfin);
+  PCfila := 5;
+  PCcolumna := 1;
+  Clrscr;
+  If PCinicio < PCfin Then
+    Begin
+      PCcontador := PCinicio;
+      Repeat
+        If PCcolumna > 75 Then
+          Begin
+            PCcolumna := 1;
+            Inc(PCfila);
+          End;
+        Gotoxy(PCcolumna, PCfila);
+        Write(PCcontador, ' ');
+        PCcolumna := PCcolumna + 4;
+        PCcontador := PCcontador + 1;
+        Delay(20);
+      Until PCcontador > PCfin;
+    End
+  Else If PCinicio > PCfin Then
+         Begin
+           PCcontador := PCinicio;
+           Repeat
+             If PCcolumna > 75 Then
+               Begin
+                 PCcolumna := 1;
+                 Inc(PCfila);
+               End;
+             Gotoxy(PCcolumna, PCfila);
+             Write(PCcontador, ' ');
+             PCcolumna := PCcolumna + 4;
+             PCcontador := PCcontador - 1;
+             Delay(20);
+           Until PCcontador < PCfin;
+         End
+  Else
+    Begin
+      Writeln('Los valores son iguales, no hay secuencia.');
+    End;
+End.
