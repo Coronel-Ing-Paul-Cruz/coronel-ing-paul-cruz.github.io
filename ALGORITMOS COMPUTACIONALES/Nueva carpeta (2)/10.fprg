@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 01:01:33 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6NDk6NDYgcC7CoG0uOzIzMDI="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MDE6MDE6MzMgcC7CoG0uOzE7MjM5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, i" type="Integer" array="False" size=""/>
+            <declare name="suma, promedio" type="Real" array="False" size=""/>
+            <output expression="&quot;Ingrese el valor de la primera nota, la segunda y tercera:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <assign variable="suma" expression="nota1 + nota2 + nota3"/>
+            <assign variable="promedio" expression="suma / 3"/>
+            <output expression="&quot;la suma de las notas es &quot; &amp; suma" newline="True"/>
+            <output expression="&quot;El promedio de las notas es &quot; &amp; promedio" newline="True"/>
+            <output expression="&quot;El doble de la primera nota es &quot; &amp; nota1*2" newline="True"/>
+            <output expression="&quot;El doble de la segunda nota es &quot; &amp; nota2*2" newline="True"/>
+            <output expression="&quot;El doble de la tercera nota es &quot; &amp; nota3*2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
