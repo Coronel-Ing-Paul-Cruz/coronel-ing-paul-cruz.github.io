@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 12:13:25 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6MTA6MDAgcC7CoG0uOzIyODA="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6MTM6MjUgcC7CoG0uOzE7MjM5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese 3 numeros para saber si son iguales o desiguales:&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="(n1 = n2) &amp;&amp; (n2 = n3)">
+                <then>
+                    <output expression="&quot;Los tres n&#250;meros son iguales.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Los tres n&#250;meros son desiguales.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

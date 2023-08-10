@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 12:52:19 a.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMDk7MTE6MzY6NTIgcC7CoG0uOzIzMDI="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6NTI6MTkgYS7CoG0uOzQ7MjM5Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="String" array="False" size=""/>
+            <output expression="&quot;Dada la letra (F) o (M) escribir : FEMENINO PARA (F) O MASCULINO PARA (M).&quot;" newline="True"/>
+            <output expression="&quot;Escriba F o M&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n = &quot;f&quot;">
+                <then>
+                    <assign variable="n" expression="&quot;FEMENINO&quot;"/>
+                    <output expression="n" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n = &quot;F&quot;">
+                        <then>
+                            <assign variable="n" expression="&quot;FEMENINO&quot;"/>
+                            <output expression="n" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="n = &quot;m&quot;">
+                        <then>
+                            <assign variable="n" expression="&quot;MASCULINO&quot;"/>
+                            <output expression="n" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="n = &quot;M&quot;">
+                                <then>
+                                    <assign variable="n" expression="&quot;MASCULINO&quot;"/>
+                                    <output expression="n" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

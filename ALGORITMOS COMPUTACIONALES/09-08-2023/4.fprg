@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 01:20:22 a.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MDE6MTU6NTggYS7CoG0uOzIyODE="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MDE6MjA6MjIgYS7CoG0uOzE7MjM3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <assign variable="edad" expression="0"/>
+            <output expression="&quot;Buenos dias, pasajero del autobus, si pasas de 10 a&#241;os de edad debes pagar 500 por el pasaje&quot;" newline="True"/>
+            <output expression="&quot;Que edad tienes?&quot;" newline="True"/>
+            <input variable="edad"/>
+            <if expression="edad &gt;= 10">
+                <then>
+                    <output expression="&quot;Debe pagar por el pasaje&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No debe pagar por el pasaje&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

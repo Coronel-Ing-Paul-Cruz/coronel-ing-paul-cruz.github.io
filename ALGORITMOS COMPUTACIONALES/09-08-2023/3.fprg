@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 01:15:29 a.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MDE6MDQ6MjIgYS7CoG0uOzIyNzA="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MDE6MTU6MjkgYS7CoG0uOzM7MjM4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorcompra, totalapagar" type="Integer" array="False" size=""/>
+            <assign variable="valorcompra" expression="0"/>
+            <assign variable="totalapagar" expression="0"/>
+            <output expression="&quot;ingrese el valor de la compra&quot;" newline="True"/>
+            <input variable="valorcompra"/>
+            <if expression="valorcompra &gt;= 10000">
+                <then>
+                    <assign variable="totalapagar" expression="(valorcompra)-valorcompra*0.075"/>
+                    <output expression="&quot;El valor del bono es &quot;" newline="False"/>
+                    <output expression="valorcompra*0.075" newline="True"/>
+                    <output expression="&quot;y el total a pagar de la compra restandole el bono es &quot;" newline="False"/>
+                    <output expression="totalapagar" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No aplica para bono y el total a pagar es &quot;" newline="False"/>
+                    <output expression="valorcompra" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

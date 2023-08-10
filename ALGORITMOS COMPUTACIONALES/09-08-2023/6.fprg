@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Paul"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-10 12:20:43 p.&#160;m."/>
+        <attribute name="created" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6MTM6NTQgcC7CoG0uOzIyOTI="/>
+        <attribute name="edited" value="UGF1bDtKT0VMOzIwMjMtMDgtMTA7MTI6MjA6NDMgcC7CoG0uOzE7MjM5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, pares" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ingrese un n&#250;mero:&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero &lt; 10">
+                <then>
+                    <output expression="&quot;N&#250;meros pares del 1 al 10:&quot;" newline="True"/>
+                    <for variable="pares" start="2" end="10" direction="inc" step="2">
+                        <output expression="pares" newline="True"/>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;El n&#250;mero ingresado no es menor de 10.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
